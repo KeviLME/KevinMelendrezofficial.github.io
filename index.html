@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <title class="text-black">Make Website With Tailwind CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.min.js"></script>
+</head>
+
+
+
+<body>
+
+    <div class="container min-h-screen bg-black bg-center bg-cover px-28 py-5">
+        <nav class="flex items-center">
+            <!-- <img src="Images/screen.png.png" class="w-40 cursor-pointer"> -->
+            <ul class="flex-1 text-center font-sans font-semibold text-lg mt-4">
+                <li class="list-none inline-block px-5"><a href="#" class="no-underline text-white px-2">Home</a></li>
+                <li class="list-none inline-block px-5"><a href="#air-section" class="no-underline text-white px-2">Projects</a></li>
+                <li class="list-none inline-block px-5"><a href="#Exp" class="no-underline text-white px-2">Experience</a></li>
+                <li class="list-none inline-block px-5"><a href="https://www.linkedin.com/in/kevin-lee-melendrez-/" target="_blank" class="no-underline text-white px-2">More</a></li>
+            </ul>
+            <!-- <img src="Images/screen.png.png" class="w-8 cursor-pointer"> -->
+        </nav>
+
+
+        </script>
+
+
+        <div class="flex items-center text-white mt-40 max-w-none">
+            <div>
+              <h1 class="text-6xl font-bold leading-normal font-sans">Who am<br>Im a...</h1>
+              <p class="break-normal font-sans">I am a 18-year-old
+                 programmer in my sophomore year of college (class of 2026) with a passion for software engineering.
+                 I enjoy building meaningful products that can express my creativity through code.</p>
+              
+            </div>
+            <img src="Images/UTA.jpg" alt="Your Image" class="w-90 h-80 ml-20 rounded-lg ">
+          </div>
+
+        <div class="text-white mt-48">
+            <h1 class="text-9xl font-bold text-center font-sans">
+                Projects
+            </h1>
+        </div>
+        <!--
+        <div class="flex items-center ml-8">
+            <img src="Images/UTA.jpg" alt="Your Image" class="w-90 h-80 mt-40 rounded-lg transition ease-in duration-700">
+            <div class="ml-4">
+              <h1 class="text-white text-6xl font-semibold leading-normal mt-8">Weather Application</h1>
+              <p class="mt-4 text-white">This project was a web base aplication used to outcast weather infomaiton in aread aske dby a user </p>
+            </div>
+          </div>
+        -->
+
+          <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style >
+    * { box-sizing: border-box }
+    body { font-family: Verdana, sans-serif; margin: 0 }
+    .mySlides { 
+      display: none;
+      width: auto; /* Adjust the width as needed */
+      height: auto; /* Adjust the height as needed */
+    }
+    .mySlides img {
+      max-width: 100000%;
+      max-height: 900%;
+      object-fit: cover;
+    }
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      width: 100%;
+      text-align: center;
+    }
+
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+      margin-top: 30px; /* Adjust the margin-top to lower the entire section */
+    }
+            
+            /* Next & previous buttons */
+            .prev, .next {
+              cursor: pointer;
+              position: absolute;
+              top: 50%;
+              width: auto;
+              padding: 16px;
+              margin-top: -22px;
+              color: white;
+              font-weight: bold;
+              font-size: 18px;
+              transition: 0.6s ease;
+              border-radius: 0 3px 3px 0;
+              user-select: none;
+            }
+            
+            /* Position the "next button" to the right */
+            .next {
+              right: 0;
+              border-radius: 3px 0 0 3px;
+            }
+            
+            /* On hover, add a black background color with a little bit see-through */
+            .prev:hover, .next:hover {
+              background-color: rgba(0,0,0,0.8);
+            }
+            
+            /* Caption text */
+            .text {
+              color: #f2f2f2;
+              font-size: 15px;
+              padding: 8px 12px;
+              position: absolute;
+              bottom: 8px;
+              width: 100%;
+              text-align: center;
+            }
+            
+            /* Number text (1/3 etc) */
+            .numbertext {
+              color: #f2f2f2;
+              font-size: 12px;
+              padding: 8px 12px;
+              position: absolute;
+              top: 0;
+            }
+            
+            /* The dots/bullets/indicators */
+            .dot {
+              cursor: pointer;
+              height: 15px;
+              width: 15px;
+              margin: 0 2px;
+              background-color: #bbb;
+              border-radius: 50%;
+              display: inline-block;
+              transition: background-color 0.6s ease;
+            }
+            
+            .active, .dot:hover {
+              background-color: #717171;
+            }
+            
+            /* Fading animation */
+            .fade {
+              animation-name: fade;
+              animation-duration: 1.5s;
+            }
+            
+            @keyframes fade {
+              from {opacity: .4} 
+              to {opacity: 1}
+            }
+            
+            /* On smaller screens, decrease text size */
+            @media only screen and (max-width: 300px) {
+              .prev, .next,.text {font-size: 11px}
+            }
+            </style>
+            </head>
+
+
+        <section id="air-section" class="mt-10">
+            <div class="slideshow-container">
+            
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="Images/AIR.png"  style="width:100%" class="rounded-lg">
+              <h1 class="text-white">pleas work</h1>
+              <div class="text-[rgba(194,241,229,255)]">A.I.R (Advanced Intelligent Weather Reporter) - A Python-powered weather application that fetches real-time weather data for any city. Developed with a passion for coding, A.I.R provides comprehensive weather statistics and forecasts to aid in daily planning. Gained expertise in working with API keys to access external weather data sources. A.I.R showcases problem-solving skills, data processing, and user-friendly design. A valuable project that enhances my proficiency as a developer."</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="Images/magic.png" style="width:100%"  class="rounded-lg">
+              <h1 class="text-white">pleas work</h1>
+              <div class="text-[rgba(241,229,194,255)]">Magic 8 Ball Simulator - A Python project recreating the classic Magic 8 Ball experience in the terminal. Users can ask questions and receive mysterious responses like the original toy, along with additional insights into their future. This project honed my Python skills, especially in decision-making algorithms. Crafting this interactive simulation added a playful touch to my programming repertoire, showcasing my ability to create engaging command-line applications.</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="Images/WEBSITE.png" style="width:100%"  class="rounded-lg">
+              <h1 class="text-white">pleas work</h1>
+              <div class="text-[rgba(229,194,241,255)]">This Website - A personal project showcase website illustrates my diverse skills and creativity in web development. Using HTML, CSS, and Tailwind CSS, I crafted captivating projects, demonstrating expertise in various programming languages. With intuitive user experiences and engaging layouts, I invite you to explore the magic of technology and celebrate the transformative power of our creations. Let's shape a brighter digital future together!</div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+            
+            <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+            </script>
+            
+
+            
+        <section id="Exp" class="mt-10">
+        
+            <body class="mt-52"> 
+                <div class="text-white mt-40">
+                  <h1 class="font-sans text-9xl font-semibold mb-4 text-slate-400 hover:text-sky-400 ">Experience...</h1>
+                </div>
+              
+                <div class="flex flex-col lg:flex-row items-center mt-36">
+                  <img src="Images/2.png"sad" class="w-45 mb-4 lg:mr-4 lg:mb-0 rounded-3xl">
+                  <p class="text-white font-sans">Currently, I work as an IT intern and counselor, teaching students aged 8+ up to teenagers about STEM-related courses such as computer robotics, coding courses, AI coding, and more. My daily responsibilities include monitoring and assessing students' progress, providing constructive feedback, and collaborating with fellow IT instructors. Additionally, I actively participate in team meetings to schedule upcoming weeks, conduct self-research on topics taught, and utilize educational technologies to enhance the learning experience.</p>
+                </div>
+                <div class="flex flex-col lg:flex-row items-center mt-32">
+                    <img src="Images/CFBISDof.png"sad" class="w-45 mb-4 lg:mr-4 lg:mb-0 rounded-3xl">
+                    <p class="text-white font-sans">I Spent my 2022 summer working for the Carrollton farmers branch school district within their IT department. This job entitled me to assemble and disassemble electrical components as well work with others to solve tech-related issues. The skills I learned from this job have allowed me to think outside the box when facing tech issues as sometimes the most complex issues have simple solutions.</p>
+                  </div>
+                  <div class="flex flex-col lg:flex-row items-center mt-32">
+                    <img src="Images/WALMART.png"sad" class="w-45 mb-4 lg:mr-4 lg:mb-0 rounded-3xl">
+                    <p class="text-white font-sans">My career at Walmart started at the beginning of 2020 as a way to save up money for a computer. Working at Walmart not only allowed me to get my computer but to gain beneficial life skills like time management, communication skill, and organization.</p>
+                  </div>
+
+
+
+        
+    </div>
+
+
+</body>
+
+</html>
