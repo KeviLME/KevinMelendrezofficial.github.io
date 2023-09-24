@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth !important;
-  outline: red solid 1px !important;
+
 }
 
 
@@ -323,7 +323,7 @@ section img#house4 {
 
 .pleas_work{
   width: auto;
-  outline: red solid 1px;
+  
   display: flex;
   flex-direction: row;
   justify-content: center;
