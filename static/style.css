@@ -336,12 +336,15 @@ section img#house4 {
 .work {
   margin: 0;
   padding: 0;
-  
+  outline: 1px solid white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap !important;
+  
+  flex-wrap: none !important;
+  align-items: start;
+  align-content: stretch !important;
+  
  
   gap: 10px;
 }
@@ -350,11 +353,16 @@ section img#house4 {
   
   width: 500px;
   height: 700px;
+  outline: 1px solid white;
   background: linear-gradient(blue, black);
   border-radius: 10px;
   display: flex;
   justify-content: center;
   text-align: justify;
+  padding: 0;
+  
+  
+ 
   
 
 }
@@ -362,6 +370,10 @@ section img#house4 {
 .hidden {
   opacity: 0;
   transition: 0.5s ease-in-out;
+  width: 100%;
+  height: 100% ;
+  
+  
 }
 .job:hover .hidden {
   opacity: 1;
@@ -370,20 +382,20 @@ section img#house4 {
 
 .hidden h1 {
   color: white;
-  font-size: 3em;
+  font-size: 3vw;
   text-align: center;
   margin-top: 10px;
 }
 .hidden h2 {
   color: white;
-  font-size: 2em;
+  font-size: 2vw;
   text-align: center;
   margin-top: 10px;
 }
 
 .hidden p {
   color: white;
-  font-size: 1.5em;
+  font-size: 1.5vw;
   text-align: center;
   margin-top: 10px;
 }
