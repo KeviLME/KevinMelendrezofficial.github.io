@@ -336,7 +336,7 @@ section img#house4 {
 .work {
   margin: 0;
   padding: 0;
-  outline: 1px solid white;
+  
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -353,7 +353,7 @@ section img#house4 {
   
   width: 500px;
   height: 700px;
-  outline: 1px solid white;
+  
   background: linear-gradient(blue, black);
   border-radius: 10px;
   display: flex;
