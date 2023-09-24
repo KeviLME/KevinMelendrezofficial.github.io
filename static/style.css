@@ -4,28 +4,13 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth !important;
-
+  outline: red solid 1px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 html {
   scroll-behavior: smooth !important;
   overflow-x: hidden !important;
+  
 }
 
 /* width */
@@ -53,6 +38,7 @@ body {
   min-height: 100vh;
   overflow-x: hidden !important;
   background: linear-gradient(black, lightblue);
+  
 }
 
 header {
@@ -93,7 +79,7 @@ header ul li a {
   padding: 6px 15px;
   color: white;
   border-radius: 20px;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
 
 header ul li a:hover,
@@ -101,7 +87,6 @@ header ul li a.active {
   transform: scale(1.1);
   background: white;
   color: black;
-  
 }
 
 @media screen and (max-width: 650px) {
@@ -109,9 +94,6 @@ header ul li a.active {
     display: none;
   }
 }
-
-
-
 
 section {
   position: relative;
@@ -121,6 +103,8 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+  
 }
 
 section::before {
@@ -193,7 +177,6 @@ section img#refs {
   z-index: 9999999;
   transform: translateY(10px);
   transform: translateX(-1450px);
-  
 }
 
 .sec {
@@ -211,17 +194,14 @@ section img#refs {
 }
 
 .auto_type {
-  font-size: 3.5em;
+  font-size: 3.5vw;
   margin-bottom: 10px;
   color: white;
   font-weight: 700;
 }
 
-
-
-
 .sec p {
-  font-size: 1.2em;
+  font-size: 1.6vw;
   color: white;
 }
 
@@ -295,8 +275,7 @@ section img#house4 {
   padding: 10px;
   text-decoration: none;
   margin: 8px;
-  transition: all .3s;
- 
+  transition: all 0.3s;
 }
 
 .lin:hover {
@@ -312,8 +291,7 @@ section img#house4 {
   border: 1px solid white;
   margin: 0;
   padding: 0;
-  
-  
+
   width: auto;
   height: auto;
   max-width: 1000px;
@@ -321,63 +299,53 @@ section img#house4 {
   object-fit: cover;
 }
 
-.pleas_work{
+.pleas_work {
   width: auto;
-  
+
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-content: space-between;
   gap: 50px;
   flex-wrap: wrap-reverse;
-
+  
 }
 
 .work {
   margin: 0;
   padding: 0;
-  
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
+
   flex-wrap: none !important;
   align-items: start;
   align-content: stretch !important;
-  
- 
+
   gap: 10px;
 }
 
 .job {
-  
   width: 500px;
   height: 700px;
-  
+
   background: linear-gradient(blue, black);
   border-radius: 10px;
   display: flex;
   justify-content: center;
   text-align: justify;
   padding: 0;
-  
-  
- 
-  
-
 }
 
 .hidden {
   opacity: 0;
   transition: 0.5s ease-in-out;
   width: 100%;
-  height: 100% ;
-  
-  
+  height: 100%;
 }
 .job:hover .hidden {
   opacity: 1;
-  
 }
 
 .hidden h1 {
@@ -400,10 +368,6 @@ section img#house4 {
   margin-top: 10px;
 }
 
-
-
-
-
 .slidesd_daddy {
   display: flex;
   justify-content: center;
@@ -412,22 +376,10 @@ section img#house4 {
   width: 100%;
 }
 
-.slidesd_daddy:hover .text{
+.slidesd_daddy:hover .text {
   opacity: 1;
-
 }
 /*SLide SHow*/
-
-
-
-
-
-
-
-
-
-
-
 
 /* Slideshow container */
 .slideshow-container {
@@ -438,20 +390,16 @@ section img#house4 {
   height: auto;
   max-height: 800px;
   overflow-y: hidden;
+  
 }
 
 .slideshow-container:hover .words_un {
   opacity: 1;
   transition: ease-in-out 0.5s;
-  
+
   z-index: 8;
   filter: blur(0px);
-  
- 
-
-  
 }
-
 
 /* Hide the images by default */
 .mySlides {
@@ -460,7 +408,7 @@ section img#house4 {
   height: auto;
 }
 
-.mySlides:hover .project_ima{
+.mySlides:hover .project_ima {
   filter: blur(15px);
   z-index: 1;
 }
@@ -527,7 +475,6 @@ section img#house4 {
 }
 
 .active,
-
 .dot:hover {
   background-color: #717171;
 }
@@ -548,8 +495,6 @@ section img#house4 {
 }
 
 .words_un {
-  
-
   bottom: 10px;
   position: relative;
   color: black;
@@ -561,24 +506,21 @@ section img#house4 {
   margin-left: 30px;
   transform: translateY(-520px);
   max-height: 800px;
+  overflow: hidden;
 }
 
-
-.descript{
+.descript {
   display: flex;
   padding-left: 10px;
   padding-right: 10px;
   font-size: 1em;
   text-align: left !important;
-  
 }
 
-.descript p{
+.descript p {
   text-align: left;
   text-indent: 50px;
 }
-
-
 
 section img#Last1 {
   z-index: 8;
@@ -589,4 +531,3 @@ section img#Last2 {
 section img#Last3 {
   z-index: 10;
 }
-
