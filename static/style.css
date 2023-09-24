@@ -268,7 +268,7 @@ section img#house4 {
   font-size: 7.5vw;
   right: 600px;
   z-index: 9;
-  transform: translateY(100px);
+  transform: translateY(400px);
 }
 
 .links {
@@ -341,8 +341,9 @@ section img#house4 {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
-  flex-shrink: 3;
+  flex-wrap: wrap !important;
+ 
+  gap: 10px;
 }
 
 .job {
